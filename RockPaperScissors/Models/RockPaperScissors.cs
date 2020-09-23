@@ -10,13 +10,22 @@ namespace RockPaperScissors.Models
     public string VillainWeapon { get; set; }
     public Game (string heroWeapon, string villainWeapon)
     {
-      string [] WeaponArray = {"Rock", "Paper", "Scissors"};
+      string [] WeaponArray = {"Rock", "Scissors", "Paper"};
       HeroWeapon = heroWeapon;
       VillainWeapon = villainWeapon;
     }
-    public static void PlayGame()
+    public string PlayGame()
     {
-      // etc
+      string result;
+      if (HeroWeapon == VillainWeapon)
+      {
+      result = "It's a Tie!";
+      }
+      else
+      {
+        result = "I don't know what just happened?";
+      }
+      return result;
     }
   }
 }
