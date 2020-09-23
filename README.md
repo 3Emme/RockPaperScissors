@@ -27,6 +27,19 @@ Your method should take 2 inputs - one for each player's choice
 It should return "Player 1" if the first input wins, "Player 2" if the second input wins, and "Draw" if nobody wins.
 
 ### specs for all possible combination of plays:
+tie Spec:
+if input == input2 = tie 
+Scissor is superior paper
+Paper is superior to rock 
+Rock is superior ti scissor 
+
+Always odd, in the case of 7 total, 3 from the choice is defeated and the following 3 defeat the choice. 
+
+1 = scissor 2= paper  3= rock 4=lamp
+
+{1, 2, 3, 4}
+
+index ++ is always superior in a loop 
 
 ```
 Input: Rock
