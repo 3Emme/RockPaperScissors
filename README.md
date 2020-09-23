@@ -73,6 +73,6 @@ C#
 
 ### License
 
-_{Determine the license under which this application can be used. See below for more details on licensing.}_
 
-Copyright (c) 2020 **_{List of contributors or company name}_**
+
+Copyright (c) 2020 **_Natalie Murphy & Emme Buentiempo_**
