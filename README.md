@@ -34,11 +34,26 @@ Paper is superior to rock
 Rock is superior ti scissor 
 
 Always odd, in the case of 7 total, 3 from the choice is defeated and the following 3 defeat the choice. 
+{0,1,2,3,4,5,6}
+{0} - tie 
+{1,2,3} defeat
+{4,5,6} defeated
 
-1 = scissor 2= paper  3= rock 4=lamp
+0 = scissor 1= paper  2= rock 
 
-{1, 2, 3, 4}
+{0, 1, 2}
 
+hero: 2
+villian: 0 
+
+0>2
+villian array
+{0,1,2}
+
+hero array
+{2,0,1}
+
+2<0 
 index ++ is always superior in a loop 
 
 ```

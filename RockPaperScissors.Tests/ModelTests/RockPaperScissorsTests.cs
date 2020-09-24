@@ -18,8 +18,8 @@ namespace RockPaperScissors.Tests
     public void GamePlay_ReturnsPlayGameResult_String()
     {
       //Arrange
-      string input = "Rock";
-      string input2 = "Scissors";
+      string input = "Fist";
+      string input2 = "Foot";
       Game newGame = new Game(input, input2);
       //Act
       string result = newGame.PlayGame();
@@ -40,6 +40,20 @@ namespace RockPaperScissors.Tests
 
       //Assert
       Assert.AreEqual(("It's a Tie!"), result);
+
+    }
+    [TestMethod]
+    public void GamePlay_ReturnsPlayGameResultPaperVsRock_String()
+    {
+      //Arrange
+      string input = "Paper";
+      string input2 = "Rock";
+      Game newGame = new Game(input, input2);
+      //Act
+      string result = newGame.PlayGame();
+
+      //Assert
+      Assert.AreEqual(("Paper beats Rock!"), result);
 
     }
   }
